@@ -1,0 +1,12 @@
+done - All dq sources with top runners
+	done - 50K arabic
+	done - 50K english
+	done - top runner 33K
+	done - top runner 1K
+	done - remove duplicates
+- Synonyms
+	- Clean the 34K (~1000 from Dawood + 33K new SMSs)
+		- fix the 1000 synon to be , new list in the same row, comma separator
+		- applying the cleansing rules to all to new column
+		- Remove synon duplicates
+		- Apply cleansing rules to Entity layer UI => Shafique
