@@ -6,6 +6,7 @@ done - All dq sources with top runners
 	done - remove duplicates
 - Synonyms
 	done - Clean the 34K (~1000 from Dawood + 33K new SMSs)
+		- manual review - 505
 		- applying the cleansing rules to all to new column
 		- fix the 1000 synon to be , new list in the same row, comma separator
 		- Remove synon duplicates
