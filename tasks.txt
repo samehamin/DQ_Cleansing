@@ -4,10 +4,16 @@ done - All dq sources with top runners
 	done - top runner 33K
 	done - top runner 1K
 	done - remove duplicates
-- Synonyms
+done - Cleansing and review
 	done - Clean the 34K (~1000 from Dawood + 33K new SMSs)
-		- manual review - 505
-		- applying the cleansing rules to all to new column
-		- fix the 1000 synon to be , new list in the same row, comma separator
-		- Remove synon duplicates
-		- Apply cleansing rules to Entity layer UI => Shafique
+	done - manual review - 1240
+- DLM pipeline
+	- Tokenize Dawood / ar col by (-)
+	- Select only uncleaned from original estab col
+	- Aggregate all in one list
+	- Remove duplicates
+	- create DLM file
+	- DLM deployment
+- Entity Layer
+	- Apply cleansing rules to Entity layer UI => Shafique
+	- Insert all EL (50K + 34 K) with synonyms
